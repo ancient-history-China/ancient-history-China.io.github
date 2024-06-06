@@ -1,7 +1,7 @@
 <nav>
     <div class="row" style="background-color: rgba(195, 255, 0, 0.852);">
       {% for item in site.data.navigation %}
-      <div class="col-md-3">
+      <div class="col-md-2">
         <h2 align="center"><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></h2>
       </div>
       {% endfor %}
