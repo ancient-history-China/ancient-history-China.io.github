@@ -1,0 +1,12 @@
+- name: 网站首页
+  link: /
+- name: 网站简介
+  link: /about.html
+- name: 历史朝代
+  link: /dynasty.html
+- name: 历史名人
+  link: /celebrity.html
+  name: 历史大事
+  link: /event.html
+  name: 历史爱好者
+  link: /enthusiast.html
