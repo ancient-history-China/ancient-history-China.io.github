@@ -6,7 +6,7 @@
   link: /dynasty.html
 - name: 历史名人
   link: /celebrity.html
-  name: 历史大事
+- name: 历史大事
   link: /event.html
-  name: 历史爱好者
+- name: 历史爱好者
   link: /enthusiast.html
