@@ -1,5 +1,11 @@
 collections:
-  positions:
+  dynasties:
+    output: true
+collections:
+  figures:
+    output: true
+    collections:
+  events:
     output: true
 
 defaults:
