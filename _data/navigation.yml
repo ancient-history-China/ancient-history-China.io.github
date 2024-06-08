@@ -3,8 +3,8 @@
 - name: 网站简介
   link: /about.html
 - name: 历史朝代
-  link: /dynasty.html
+  link: /ChaoDai.html
 - name: 历史人物
-  link: /figure.html
-- name: 历史大事
-  link: /event.html
+  link: /RenWu.html
+- name: 历史事件
+  link: /Shijian.html
