@@ -4,10 +4,8 @@ collections:
 collections:
   figures:
     output: true
-    collections:
-  events:
-    output: true
 
+    
 defaults:
   - scope:
       path: ""

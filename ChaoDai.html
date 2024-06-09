@@ -4,11 +4,19 @@ title: 历史朝代
 ---
 
 <ul>
-  {% for author in site.authors %}
+  {% for dynasty in site.dynasties %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+      <h2><a href="{{ dynasty.url }}">{{ dynasty.title }}</a></h2>
+      {{ dynasty.excerpt }}
     </li>
   {% endfor %}
 </ul>
+<style>
+  body {
+    /*加载背景图：图片地址 不平铺 */
+    background: url(背景图1.jpg) no-repeat;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+</style>
