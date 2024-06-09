@@ -6,8 +6,7 @@ title: 历史朝代
 <ul>
   {% for dynasty in site.dynasties %}
     <li>
-      <h2><a href="{{ dynasty.url }}">{{ dynasty.title }}</a></h2>
-      {{ dynasty.excerpt }}
+      <h2><a href="{{ dynasty.url }}">{{ <dynasty class="name"></dynasty> }}</a></h2>
     </li>
   {% endfor %}
 </ul>
