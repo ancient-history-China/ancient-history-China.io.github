@@ -6,10 +6,11 @@ title: 历史朝代
 <ul>
   {% for dynasty in site.dynasties %}
     <li>
-      <h2><a href="{{ dynasty.url }}">{{ <dynasty class="name"></dynasty> }}</a></h2>
+      <h2><a href="{{ dynasty.url }}">{{ dynasty.name }}</a></h2>
     </li>
   {% endfor %}
 </ul>
+
 <style>
   body {
     /*加载背景图：图片地址 不平铺 */
